@@ -35,7 +35,7 @@ header .theme-icons .ti-gift, header .theme-icons .ti-alarm-clock, header .theme
   color: #444444;
   padding-top: 13px; }
 
-header .text-icons .better, header .text-icons .faster, header .text-icons .together, .our-customers .our-customers-content .our-customers-detail {
+header .text-icons .better, header .text-icons .faster, header .text-icons .together {
   font-size: 36px;
   font-weight: 300;
   line-height: 48px;
@@ -62,7 +62,8 @@ header .text-icons .better, header .text-icons .faster, header .text-icons .toge
   color: #283238;
   font-size: 14px;
   font-style: italic;
-  line-height: 19px; }
+  line-height: 19px;
+  padding-bottom: 25px; }
 
 .i-learnt .content-today-i-learnt .i-learnt-detail p, .daily-report .content-daily-report .daily-report-detail p, .project .content-daily-report .daily-report-detail p, .members .members-content .members-detail p, .customers .customers-content .customers-detail p {
   color: #283238;
@@ -79,6 +80,12 @@ header .text-icons .better, header .text-icons .faster, header .text-icons .toge
   background: -webkit-linear-gradient(315deg, #B4EC51 0%, #429321 100%);
   background: -o-linear-gradient(315deg, #B4EC51 0%, #429321 100%);
   background: linear-gradient(135deg, #B4EC51 0%, #429321 100%); }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px;
+  font-family: Roboto-Regular !important; }
 
 .start-now {
   padding: 13px 40px;
@@ -99,24 +106,6 @@ header .text-icons .better, header .text-icons .faster, header .text-icons .toge
     background: -webkit-linear-gradient(315deg, #B4EC51 0%, #429321 100%);
     background: -o-linear-gradient(315deg, #B4EC51 0%, #429321 100%);
     background: linear-gradient(135deg, #B4EC51 0%, #429321 100%); }
-
-body {
-  margin: 0px;
-  padding: 0px;
-  font-size: 13px;
-  font-family: Roboto-Regular; }
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .i-learnt .i-learnt-start, .daily-report .daily-report-start, .project .daily-report-start, .members .members-start, .customers .customers-start {
-    text-align: center;
-    margin-top: 0px;
-    padding-bottom: 50px; }
-  header .theme-icons .ti-gift, header .theme-icons .ti-alarm-clock, header .theme-icons .ti-thumb-up {
-    font-size: 24px;
-    letter-spacing: 2px; }
-  header .text-icons .better, header .text-icons .faster, header .text-icons .together {
-    font-size: 24px;
-    line-height: 32px; } }
 
 header {
   width: 100%;
@@ -171,8 +160,7 @@ header {
   .i-learnt .today-i-learnt-title {
     padding-top: 100px; }
   .i-learnt .i-learnt-description {
-    padding-top: 16px;
-    padding-bottom: 25px; }
+    padding-top: 16px; }
   .i-learnt .i-learnt-start {
     margin-top: -83px; }
 
@@ -181,7 +169,7 @@ header {
   .daily-report .daily-report-title, .project .daily-report-title {
     padding-top: 100px; }
   .daily-report .daily-report-description, .project .daily-report-description {
-    padding: 16px 0px 25px 0px; }
+    padding-top: 16px; }
   .daily-report .daily-report-img, .project .daily-report-img {
     margin-top: -108px; }
     .daily-report .daily-report-img img, .project .daily-report-img img {
@@ -219,7 +207,7 @@ header {
   .members .members-title {
     padding-top: 100px; }
   .members .members-description {
-    padding: 16px 0px 25px 0px; }
+    padding-top: 16px; }
   .members .members-content .members-detail .ti-check-box {
     font-size: 18px;
     color: #8BC34A; }
@@ -235,7 +223,7 @@ header {
   .customers .customers-title {
     padding-top: 100px; }
   .customers .customers-description {
-    padding: 16px 0px 25px 0px; }
+    padding-top: 16px; }
   .customers .customers-img {
     margin-top: -105px; }
     .customers .customers-img img {
@@ -295,7 +283,9 @@ header {
       font-size: 18px;
       color: #FFFFFF;
       line-height: 30px;
-      text-align: justify; }
+      text-align: justify;
+      font-family: Roboto-Light;
+      font-weight: 300; }
 
 footer {
   width: 100%;
@@ -375,7 +365,7 @@ header .theme-icons .ti-gift, header .theme-icons .ti-alarm-clock, header .theme
   color: #444444;
   padding-top: 13px; }
 
-header .text-icons .better, header .text-icons .faster, header .text-icons .together, .our-customers .our-customers-content .our-customers-detail {
+header .text-icons .better, header .text-icons .faster, header .text-icons .together {
   font-size: 36px;
   font-weight: 300;
   line-height: 48px;
@@ -402,7 +392,8 @@ header .text-icons .better, header .text-icons .faster, header .text-icons .toge
   color: #283238;
   font-size: 14px;
   font-style: italic;
-  line-height: 19px; }
+  line-height: 19px;
+  padding-bottom: 25px; }
 
 .i-learnt .content-today-i-learnt .i-learnt-detail p, .daily-report .content-daily-report .daily-report-detail p, .project .content-daily-report .daily-report-detail p, .members .members-content .members-detail p, .customers .customers-content .customers-detail p {
   color: #283238;
@@ -419,44 +410,6 @@ header .text-icons .better, header .text-icons .faster, header .text-icons .toge
   background: -webkit-linear-gradient(315deg, #B4EC51 0%, #429321 100%);
   background: -o-linear-gradient(315deg, #B4EC51 0%, #429321 100%);
   background: linear-gradient(135deg, #B4EC51 0%, #429321 100%); }
-
-.start-now {
-  padding: 13px 40px;
-  border-radius: 100px;
-  background: -webkit-linear-gradient(138.88deg, #B4EC51 0%, #429321 100%);
-  background: -o-linear-gradient(138.88deg, #B4EC51 0%, #429321 100%);
-  background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  color: #FFFFFF;
-  border: none;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  cursor: pointer;
-  line-height: 21px; }
-  .start-now:hover {
-    background: -webkit-linear-gradient(315deg, #B4EC51 0%, #429321 100%);
-    background: -o-linear-gradient(315deg, #B4EC51 0%, #429321 100%);
-    background: linear-gradient(135deg, #B4EC51 0%, #429321 100%); }
-
-body {
-  margin: 0px;
-  padding: 0px;
-  font-size: 13px;
-  font-family: Roboto-Regular; }
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .i-learnt .i-learnt-start, .daily-report .daily-report-start, .project .daily-report-start, .members .members-start, .customers .customers-start {
-    text-align: center;
-    margin-top: 0px;
-    padding-bottom: 50px; }
-  header .theme-icons .ti-gift, header .theme-icons .ti-alarm-clock, header .theme-icons .ti-thumb-up {
-    font-size: 24px;
-    letter-spacing: 2px; }
-  header .text-icons .better, header .text-icons .faster, header .text-icons .together {
-    font-size: 24px;
-    line-height: 32px; } }
 
 @media screen and (max-width: 480px) {
   header {
@@ -475,6 +428,16 @@ body {
     padding: 13px 30px;
     font-size: 14px;
     line-height: 19px; }
+  .i-learnt .i-learnt-start, .daily-report .daily-report-start, .project .daily-report-start, .members .members-start, .customers .customers-start {
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 50px; }
+  header .theme-icons .ti-gift, header .theme-icons .ti-alarm-clock, header .theme-icons .ti-thumb-up {
+    font-size: 24px;
+    letter-spacing: 2px; }
+  header .text-icons .better, header .text-icons .faster, header .text-icons .together {
+    font-size: 24px;
+    line-height: 32px; }
   header .about-us {
     padding-left: 15%; }
   header .sign-in {
@@ -699,9 +662,7 @@ body {
     header .text-icons .faster {
       padding-left: 22%; }
     header .text-icons .together {
-      padding-left: 18.46%; }
-  .project .daily-report-img {
-    margin-top: 0px; } }
+      padding-left: 18.46%; } }
 
 @media screen and (width: 320px) {
   header .about-us {

@@ -1,4 +1,29 @@
 @import '_variables';
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+	font-family: Roboto-Regular !important;
+}
+
+.start-now {
+	padding: 13px 40px;
+	border-radius: 100px;	
+	@include backgr(311.12deg);	
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+	color: $color_03;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	cursor: pointer;
+	line-height: 21px;
+
+	&:hover{
+		@include backgr(135deg);
+		@extend %transition;
+	}
+}
 
 header{
 	width:100%;
@@ -88,7 +113,6 @@ header{
 
 	.i-learnt-description{
 			padding-top: 16px;
-			padding-bottom: 25px;
 			p{
 				@extend %description;
 			}
@@ -122,7 +146,7 @@ header{
 		}
 
 	.daily-report-description{
-		padding: 16px 0px 25px 0px;
+		padding-top: 16px;
 		p{
 			@extend %description;
 		}
@@ -191,7 +215,7 @@ header{
 		}
 	}
 	.members-description{
-		padding: 16px 0px 25px 0px;
+		padding-top: 16px;
 		p{
 			@extend %description;
 		}
@@ -234,7 +258,7 @@ header{
 	}
 
 	.customers-description{
-		padding: 16px 0px 25px 0px;
+		padding-top: 16px;
 		p{
 			@extend %description;
 		}
@@ -331,12 +355,13 @@ header{
 			@extend .ti-quote-left;
 		}
 		.our-customers-detail{
-			margin-top: -24px;
-			@extend %text-general;
+			margin-top: -24px;		
 			font-size: 18px;
 			color: $color_03;
 			line-height: 30px;
 			text-align: justify;
+			font-family: Roboto-Light;
+			font-weight: 300;
 		}
 	}
 }

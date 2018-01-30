@@ -73,6 +73,7 @@ $color_04: #444444;
 	font-size: 14px;
 	font-style: italic;
 	line-height: 19px;
+	padding-bottom: 25px;
 }
 
 %detail{
@@ -97,47 +98,4 @@ $color_04: #444444;
 		color: $color_03;
   	@include backgr(135deg);
  	}
-}
-
-.start-now {
-	padding: 13px 40px;
-	border-radius: 100px;	
-	@include backgr(311.12deg);	
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-	color: $color_03;
-	border: none;
-	font-size: 18px;
-	font-weight: 500;
-	letter-spacing: 1px;
-	cursor: pointer;
-	line-height: 21px;
-
-	&:hover{
-		@include backgr(135deg);
-		@extend %transition;
-	}
-}
-
-body {
-	margin: 0px;
-	padding: 0px;
-	font-size: 13px;
-	font-family: Roboto-Regular;
-}
-
-@media screen and (min-width:768px) and (max-width:991px){
-	%start-center{
-	text-align: center;
-	margin-top: 0px;
-	padding-bottom: 50px;
-}
-
-%icon-general-ipad{
-	font-size: 24px;
-	letter-spacing: 2px;
-}
-%text-general-ipad {
-	font-size: 24px;
-	line-height: 32px;
-}
 }
