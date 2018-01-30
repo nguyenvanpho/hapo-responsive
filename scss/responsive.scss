@@ -1,0 +1,707 @@
+@import '_variables';
+
+@media screen and (max-width:480px){
+	header{
+		background-image: url("../images/Landing page/Landing-page-MB/banner1.jpg");
+	}
+}
+
+@media screen and (width:768px){
+	header{
+		background-image: url("../images/Landing page/Landing-page-TB/banner1.jpg");
+	}
+	.our-customer{
+		background-image: url('../images/Landing page/Landing-page-TB/our_customers.jpg');
+	}
+}
+
+ @media screen and (min-width:768px) and (max-width:991px){
+ 	body {
+	width: 100%;
+}
+.start-now{
+	padding: 13px 30px;
+	font-size: 14px;
+	line-height: 19px;
+}
+	
+	header{
+	.about-us{
+		padding-left: 15%;
+	}
+	.sign-in{
+		padding-top: 20px;
+	}
+	.logo {
+		padding-top: 30px;
+		label{
+			width: 144px;
+			img{
+				max-width: 100%;
+			}
+		}
+	}
+	.theme-icons{
+		padding-left: 8%;
+		padding-top: 40px;
+		.ti-gift{
+			@extend %icon-general-ipad;
+		}
+		.ti-alarm-clock {
+			padding-left: 34.61%;
+			@extend %icon-general-ipad;
+		}
+		.ti-thumb-up {
+			padding-left: 32.5%;
+			@extend %icon-general-ipad;
+		}
+	}
+	.text-icons{
+		padding-left: 5.6%;
+		padding-top: 7px;
+		.better{
+			@extend %text-general-ipad;
+		}
+		.faster {
+			padding-left: 23.8%;
+			@extend %text-general-ipad;
+		}
+		.together {
+			padding-left: 18.06%;
+			@extend %text-general-ipad;
+		}
+	}
+	.text-title {	
+		padding-top: 15px;
+		p{
+			font-size: 14px;
+			line-height: 19px;
+		}
+	}
+	.header-start{
+		padding-top: 30px;
+		padding-bottom: 84.2px;
+	}
+}
+
+	.i-learnt {
+		.i-learnt-img{
+		margin-top: 0px;
+		}
+		.today-i-learnt-title{
+			padding-top: 50px;
+				p {
+					font-size: 36px;
+				}
+				.ti-bookmark-alt{
+					font-size: 30px;
+				}
+			}
+		.i-learnt-description{
+				p{
+					text-align: center;
+				}
+			}
+		.i-learnt-start{
+			@extend %start-center;
+		}
+	}
+
+	.daily-report{
+		.daily-report-title{
+			padding-top: 50px;
+				p {
+					font-size: 36px;
+				}
+			.ti-write{
+				font-size: 30px;
+				}
+			}
+
+		.daily-report-description{
+				p{
+					text-align: center;
+				}
+			}
+
+		.daily-report-img{
+			margin-top: 0px;
+		}
+		.daily-report-start{
+			@extend %start-center;
+		}
+	}
+
+	.select-number{
+		.select-carousel{
+			padding-top: 48.75px;
+			padding-bottom: 50px;
+
+			.carousel{
+				float: none;
+				width: 0px;
+				padding-left: 15px;
+			}
+		}
+	}
+
+	.members{
+		.members-title{
+			padding-top: 50px;
+			p {
+				font-size: 36px;
+			}
+		.ti-user{
+			font-size: 30px;
+			}
+		}
+		.members-description{
+			p{
+				text-align: center;
+			}
+		}
+		.members-img{
+			margin-top: 0px;
+		}
+		.members-start{
+			@extend %start-center;
+		}
+	}
+
+	.customers {
+		.customers-title{
+			padding-top: 50px;
+			p {
+				font-size: 36px;
+			}
+			.ti-face-smile{
+				font-size: 30px;
+			}
+		}
+
+		.customers-description{
+			p{
+				text-align: center;
+			}
+		}
+
+		.customers-img{
+			margin-top: 0px;
+		}
+		.customers-start{
+			@extend %start-center;
+		}
+	}
+
+	.our-customers{
+		.our-customers-carousel{
+			.our-customers-title{
+				p{
+					line-height: 48px;
+					font-size: 36px;
+				}
+			}
+		}
+		.our-customers-employees{
+			padding-top: 20px;
+		}
+		.our-customers-content{
+			.ti-quote-right{
+				float: right;
+			}
+		}
+	}
+	footer{
+		.footer-column{
+		 span{
+		 	font-size: 12px;
+		 }
+		}
+	}
+
+}
+
+ @media screen and (max-width:767px){
+ 	body {
+	width: 100%;
+	}
+	.start-now{
+		padding: 11px 29px;
+		font-size: 14px;
+		line-height: 19px;
+	}
+	%start-center-mobile{
+		text-align: center;
+		margin-top: 0px;
+		padding-bottom: 30px;
+		padding-top: 20px;
+	}
+	%icon-general-mobile{
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+
+	%text-title-mobile {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	%text-general-mobile {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	%icon-content-mobile{
+		padding-top: 5px;
+		font-size: 20px;
+	}
+
+	header{
+	.about-us{
+		padding-left: 30%;
+	}
+	.sign-in{
+		padding-top: 13px;
+	}
+	.logo {
+		text-align: center;
+		padding-top: 8px;
+		label{
+			width: 96px;
+			img{
+				max-width: 100%;
+			}
+		}
+	}
+	.theme-icons{
+		padding-left: 6.5%;
+		padding-top: 20px;
+		.ti-gift{
+			@extend %icon-general-mobile;
+		}
+		.ti-alarm-clock {
+			padding-left: 35.21%;
+			@extend %icon-general-mobile;
+		}
+		.ti-thumb-up {
+			padding-left: 33%;
+			@extend %icon-general-mobile;
+		}
+	}
+	.text-icons{
+		padding-top: 8px;
+		.better{
+			@extend %text-general-mobile;
+		}
+		.faster {
+			padding-left: 22.04%;
+			@extend %text-general-mobile;
+		}
+		.together {
+			padding-left: 14.26%;
+			@extend %text-general-mobile;
+		}
+	}
+	.text-title {	
+		padding-top: 15px;
+		p{
+			font-size: 9px;
+			line-height: 11px;
+		}
+	}
+	.header-start{
+		padding-top: 15px;
+		padding-bottom: 26.75px;
+	}
+}
+	.i-learnt {
+		.i-learnt-img{
+		margin-top: 0px;
+		}
+		.today-i-learnt-title{
+			padding-top: 30px;
+				p {
+					@extend %text-title-mobile;
+				}
+				.ti-bookmark-alt{
+					@extend %icon-content-mobile;
+				}
+			}
+		.content-today-i-learnt{
+			padding-top: 21px;
+		}
+		.i-learnt-description{
+				p{
+					font-size: 13px;
+					text-align: center;
+				}
+			}
+		.i-learnt-start{
+			@extend %start-center-mobile;
+		}
+	}
+
+	.daily-report{
+		.daily-report-title{
+			padding-top: 30px;
+				p {
+					@extend %text-title-mobile;
+				}
+			.ti-write{
+				@extend %icon-content-mobile;
+				}
+			}
+
+		.daily-report-description{
+				p{
+					font-size: 13px;
+					text-align: center;
+				}
+			}
+
+		.daily-report-img{
+			margin-top: 0px;
+			padding-top: 21px;
+		}
+		.daily-report-start{
+			@extend %start-center-mobile;
+		}
+	}
+
+	.select-number{
+		.select-carousel{
+			padding-top: 48.75px;
+			padding-bottom: 50px;
+			.carousel{
+				float: none;
+				width: 0px;
+				margin-left: 5px;
+			}
+		}
+	}
+
+	.members{
+		.members-title{
+			padding-top: 30px;
+			p {
+				@extend %text-title-mobile;
+			}
+		.ti-user{
+			@extend %icon-content-mobile;
+			}
+		}
+		.members-description{
+			p{
+				text-align: center;
+				font-size: 13px;
+			}
+		}
+		.members-img{
+			margin-top: 0px;
+			padding-top: 21px;
+		}
+		.members-start{
+			@extend %start-center-mobile;
+		}
+	}
+
+	.customers {
+		.customers-content{
+			padding-top: 21px;
+		}
+		.customers-title{
+			padding-top: 30px;
+			p {
+				@extend %text-title-mobile;
+			}
+			.ti-face-smile{
+				@extend %icon-content-mobile;
+			}
+		}
+
+		.customers-description{
+			p{
+				font-size: 13px;
+				text-align: center;
+			}
+		}
+
+		.customers-img{
+			margin-top: 0px;
+		}
+		.customers-start{
+			@extend %start-center-mobile;
+		}
+	}
+	.project{
+		.daily-report-title{
+			.ti-calendar{
+				@extend %icon-content-mobile;
+			}
+		}
+	}
+	.our-customers{
+		.our-customers-carousel{
+			.our-customers-title{
+				p{
+					line-height: 32px;
+					font-size: 24px;
+				}
+			}
+		}
+		.our-customers-employees{
+			padding-top: 20px;
+		}
+		.our-customers-content{
+			.ti-quote-right{
+				float: right;
+				margin-top: 0px;
+				font-size: 48px;
+			}
+			.our-customers-detail{
+				margin-top: 0px;
+				p{
+					font-size: 14px;
+					line-height: 25px;
+				}
+			}
+			.ti-quote-left{
+				font-size: 48px;
+			}
+		}
+	}
+
+	footer{
+		.footer-logo{
+			label{
+				width: 96px;
+			}
+		}
+		.footer-column{
+			padding-top: 25px;
+			span{
+				font-size: 12px;
+			}
+		}
+		.footer-link-network{
+			padding-top: 25px;
+		}
+		.copyright-2017{
+			float: right;
+			padding-bottom: 26.31px;
+		}
+	}
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+ 	body {
+	width: 100%;
+}
+
+%start-ipad-pro{
+	margin-top: 30px;
+	padding-top: 0px;
+	padding-bottom: 100px;
+}
+
+	header{
+		.theme-icons{
+			padding-left: 7%;
+			.ti-gift{
+			}
+			.ti-alarm-clock {
+				padding-left: 30.71%;
+			}
+			.ti-thumb-up {
+				padding-left: 32.1%;
+			}
+		}
+		.text-icons{
+			padding-left: 4.6%;
+			.faster {
+				padding-left: 22%;
+			}
+			.together {
+				padding-left: 18.46%;
+			}
+		}
+	}
+
+	.i-learnt {
+		.i-learnt-start{
+			@extend %start-ipad-pro;
+		}
+	}
+
+	.daily-report{
+		.daily-report-start{
+			@extend %start-ipad-pro;
+		}
+	}
+
+	.members{
+		.members-start{
+			@extend %start-ipad-pro;
+		}
+	}
+
+	.customers {
+		.customers-start{
+			@extend %start-ipad-pro;
+		}
+	}
+	.project{
+		.daily-report-img{
+			margin-top: 0px;
+		}
+	}
+
+}
+@media screen and (width: 320px){
+	header{
+		.about-us{
+			padding-left: 15%;
+		}
+		.theme-icons{
+			padding-left: 8.5%;
+			.ti-gift{
+			}
+			.ti-alarm-clock {
+				padding-left: 24.21%;
+			}
+			.ti-thumb-up {
+				padding-left: 23%;
+			}
+		}
+		.text-icons{
+			.better{
+				font-size: 17px;
+			}
+			.faster {
+				font-size: 17px;
+				padding-left: 2%;
+			}
+			.together {
+				font-size: 17px;
+				padding-left: 1%;
+			}
+		}
+	}
+	.i-learnt{
+		.today-i-learnt-title{
+			margin-left: 12%;
+		}
+	}
+	.daily-report{
+		.daily-report-title{
+			margin-left: 12%;
+		}
+	}
+}
+
+@media screen and (min-width: 360px) and (max-width: 400px){
+	header{
+		.about-us{
+			padding-left: 15%;
+		}
+		.theme-icons{
+			padding-left: 7.5%;
+			.ti-gift{
+			}
+			.ti-alarm-clock {
+				padding-left: 28.21%;
+			}
+			.ti-thumb-up {
+				padding-left: 28%;
+			}
+		}
+		.text-icons{
+			.faster {
+				padding-left: 10%;
+			}
+			.together {
+				padding-left: 2%;
+			}
+		}
+	}
+}
+@media screen and (min-width: 401px) and (max-width: 471px){
+	header{
+		.about-us{
+			padding-left: 25%;
+		}
+		.theme-icons{
+			padding-left: 7.5%;
+			.ti-gift{
+			}
+			.ti-alarm-clock {
+				padding-left: 30.21%;
+			}
+			.ti-thumb-up {
+				padding-left: 28%;
+			}
+		}
+		.text-icons{
+			.faster {
+				padding-left: 14%;
+			}
+			.together {
+				padding-left: 10%;
+			}
+		}
+	}
+}
+
+@media screen and (width: 360px){
+	.select-number {
+		.select-carousel {
+			.carousel{
+				margin-left: 0px;
+			}
+		}
+	}
+}
+@media screen and (width: 320px){
+	.select-number {
+		.select-carousel {
+			.carousel{
+				margin-left: 0px;
+				.number img{
+					max-width: 88%;
+				}
+			}
+		}
+	}
+	.members{
+		.members-detail{
+			p{
+				width: 85.666667%;
+			}
+		}
+	}
+	.customers{
+		.customers-detail{
+			p{
+				width: 85.666667%;
+			}
+		}
+	}
+}
+@media screen and (width: 375px){
+	header{ 
+		.text-icons{ 
+			.together{
+				padding-left: 8%;
+				}
+			}
+	}
+}
+@media screen and (width: 480px){
+	.select-number {
+		.select-carousel {
+			.carousel{
+				margin-left: 20px;
+			}
+		}
+	}
+}

@@ -1,0 +1,143 @@
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url('../fonts/Roboto-Light.ttf');  
+}
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../fonts/Roboto-Regular.ttf');  
+}
+@font-face {
+	font-family: 'Roboto-Italic';
+	src: url('../fonts/Roboto-Italic.ttf');  
+}
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('../fonts/Roboto-Medium.ttf');  
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+$color_01: #8BC34A;
+$color_02: #283238;
+$color_03: #FFFFFF;
+$color_04: #444444;
+
+%icon-general {
+	float: left;
+	font-size: 48px;
+	letter-spacing: 4px;
+	color: $color_02;
+}
+
+%icon-general-title {
+	float: left;
+	font-size: 36px;
+	color: $color_04;
+	padding-top: 13px;
+}
+
+%text-general {
+	font-size: 36px;	
+	font-weight: 300;	
+	line-height: 48px;
+	color: $color_02;
+	font-family: Roboto-Light;
+}
+
+%text-title {
+	padding-left: 19px;
+	color: $color_04;		
+	font-size: 48px;
+	float: left;	
+	font-weight: 300;
+	line-height: 63px;
+	font-family: Roboto-Light;
+}
+
+%transition {
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+%description{
+	color: $color_02;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 19px;
+}
+
+%detail{
+	color: $color_02;
+	font-size: 13px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+%start{
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+@mixin backgr($deg){
+ background: linear-gradient($deg, #B4EC51 0%, #429321 100%);	
+}
+
+.btn-sign-in{
+	&:hover{
+		@extend %transition;
+		color: $color_03;
+  	@include backgr(135deg);
+ 	}
+}
+
+.start-now {
+	padding: 13px 40px;
+	border-radius: 100px;	
+	@include backgr(311.12deg);	
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+	color: $color_03;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	cursor: pointer;
+	line-height: 21px;
+
+	&:hover{
+		@include backgr(135deg);
+		@extend %transition;
+	}
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+	font-family: Roboto-Regular;
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	%start-center{
+	text-align: center;
+	margin-top: 0px;
+	padding-bottom: 50px;
+}
+
+%icon-general-ipad{
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+%text-general-ipad {
+	font-size: 24px;
+	line-height: 32px;
+}
+}
