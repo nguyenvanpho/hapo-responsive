@@ -62,8 +62,7 @@ header{
 		}
 	}
 	.header-start{
-		padding-top: 31px;
-		padding-bottom: 233px;
+		padding: 31px 0px 233px 0px;
 	}
 }
 
@@ -123,12 +122,11 @@ header{
 		}
 
 	.daily-report-description{
-			padding-top: 16px;
-			padding-bottom: 25px;
-			p{
-				@extend %description;
-			}
+		padding: 16px 0px 25px 0px;
+		p{
+			@extend %description;
 		}
+	}
 
 	.content-daily-report{
 
@@ -154,8 +152,7 @@ header{
 	width: 100%;
 	@include backgr(315deg);
 	.select-carousel{
-		padding-top: 68.75px;
-		padding-bottom: 70px;
+		padding: 68.75px 0px 70px 0px;
 
 		.carousel{
 			float: left;
@@ -194,8 +191,7 @@ header{
 		}
 	}
 	.members-description{
-		padding-top: 16px;
-		padding-bottom: 25px;
+		padding: 16px 0px 25px 0px;
 		p{
 			@extend %description;
 		}
@@ -238,8 +234,7 @@ header{
 	}
 
 	.customers-description{
-		padding-top: 16px;
-		padding-bottom: 25px;
+		padding: 16px 0px 25px 0px;
 		p{
 			@extend %description;
 		}

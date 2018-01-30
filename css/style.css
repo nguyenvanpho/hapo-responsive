@@ -158,8 +158,7 @@ header {
       line-height: 24px;
       font-family: Roboto-Italic; }
   header .header-start {
-    padding-top: 31px;
-    padding-bottom: 233px; }
+    padding: 31px 0px 233px 0px; }
 
 .i-learnt {
   width: 100%;
@@ -182,8 +181,7 @@ header {
   .daily-report .daily-report-title, .project .daily-report-title {
     padding-top: 100px; }
   .daily-report .daily-report-description, .project .daily-report-description {
-    padding-top: 16px;
-    padding-bottom: 25px; }
+    padding: 16px 0px 25px 0px; }
   .daily-report .daily-report-img, .project .daily-report-img {
     margin-top: -108px; }
     .daily-report .daily-report-img img, .project .daily-report-img img {
@@ -197,8 +195,7 @@ header {
   background: -o-linear-gradient(135deg, #B4EC51 0%, #429321 100%);
   background: linear-gradient(315deg, #B4EC51 0%, #429321 100%); }
   .select-number .select-carousel {
-    padding-top: 68.75px;
-    padding-bottom: 70px; }
+    padding: 68.75px 0px 70px 0px; }
     .select-number .select-carousel .carousel {
       float: left;
       width: 228px; }
@@ -222,8 +219,7 @@ header {
   .members .members-title {
     padding-top: 100px; }
   .members .members-description {
-    padding-top: 16px;
-    padding-bottom: 25px; }
+    padding: 16px 0px 25px 0px; }
   .members .members-content .members-detail .ti-check-box {
     font-size: 18px;
     color: #8BC34A; }
@@ -239,8 +235,7 @@ header {
   .customers .customers-title {
     padding-top: 100px; }
   .customers .customers-description {
-    padding-top: 16px;
-    padding-bottom: 25px; }
+    padding: 16px 0px 25px 0px; }
   .customers .customers-img {
     margin-top: -105px; }
     .customers .customers-img img {
@@ -491,15 +486,13 @@ body {
       header .logo label img {
         max-width: 100%; }
   header .theme-icons {
-    padding-left: 8%;
-    padding-top: 40px; }
+    padding: 40px 0px 0px 8%; }
     header .theme-icons .ti-alarm-clock {
       padding-left: 34.61%; }
     header .theme-icons .ti-thumb-up {
       padding-left: 32.5%; }
   header .text-icons {
-    padding-left: 5.6%;
-    padding-top: 7px; }
+    padding: 7px 0px 0px 5.6%; }
     header .text-icons .faster {
       padding-left: 23.8%; }
     header .text-icons .together {
@@ -510,8 +503,7 @@ body {
       font-size: 14px;
       line-height: 19px; }
   header .header-start {
-    padding-top: 30px;
-    padding-bottom: 84.2px; }
+    padding: 30px 0px 84.2px 0px; }
   .i-learnt .i-learnt-img {
     margin-top: 0px; }
   .i-learnt .today-i-learnt-title {
@@ -533,8 +525,7 @@ body {
   .daily-report .daily-report-img, .project .daily-report-img {
     margin-top: 0px; }
   .select-number .select-carousel {
-    padding-top: 48.75px;
-    padding-bottom: 50px; }
+    padding: 48.75px 0px 50px 0px; }
     .select-number .select-carousel .carousel {
       float: none;
       width: 0px;
@@ -579,8 +570,7 @@ body {
   .i-learnt .i-learnt-start, .daily-report .daily-report-start, .project .daily-report-start, .members .members-start, .customers .customers-start {
     text-align: center;
     margin-top: 0px;
-    padding-bottom: 30px;
-    padding-top: 20px; }
+    padding: 20px 0px 30px 0px; }
   header .theme-icons .ti-gift, header .theme-icons .ti-alarm-clock, header .theme-icons .ti-thumb-up {
     font-size: 18px;
     letter-spacing: 1px; }
@@ -623,8 +613,7 @@ body {
       font-size: 9px;
       line-height: 11px; }
   header .header-start {
-    padding-top: 15px;
-    padding-bottom: 26.75px; }
+    padding: 15px 0px 26.75px 0px; }
   .i-learnt .i-learnt-img {
     margin-top: 0px; }
   .i-learnt .today-i-learnt-title {
@@ -643,8 +632,7 @@ body {
     margin-top: 0px;
     padding-top: 21px; }
   .select-number .select-carousel {
-    padding-top: 48.75px;
-    padding-bottom: 50px; }
+    padding: 48.75px 0px 50px 0px; }
     .select-number .select-carousel .carousel {
       float: none;
       width: 0px;
@@ -699,8 +687,7 @@ body {
     width: 100%; }
   .i-learnt .i-learnt-start, .daily-report .daily-report-start, .project .daily-report-start, .members .members-start, .customers .customers-start {
     margin-top: 30px;
-    padding-top: 0px;
-    padding-bottom: 100px; }
+    padding: 0px 0px 100px 0px; }
   header .theme-icons {
     padding-left: 7%; }
     header .theme-icons .ti-alarm-clock {
