@@ -1,0 +1,672 @@
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url("../fonts/Roboto-Light.ttf"); }
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto-Regular.ttf"); }
+
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url("../fonts/Roboto-Italic.ttf"); }
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url("../fonts/Roboto-Medium.ttf"); }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important; }
+
+header .theme-icons .ti-gift, header .theme-icons .ti-alarm-clock, header .theme-icons .ti-thumb-up {
+  float: left;
+  font-size: 48px;
+  letter-spacing: 4px;
+  color: #283238; }
+
+.i-learnt .today-i-learnt-title .ti-bookmark-alt, .daily-report .daily-report-title .ti-write, .project .daily-report-title .ti-write, .members .members-title .ti-user, .customers .customers-title .ti-face-smile, .project .daily-report-title .ti-calendar {
+  float: left;
+  font-size: 36px;
+  color: #444444;
+  padding-top: 13px; }
+
+header .text-icons .better, header .text-icons .faster, header .text-icons .together, .our-customers .our-customers-content .our-customers-detail {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 48px;
+  color: #283238;
+  font-family: Roboto-Light; }
+
+.i-learnt .today-i-learnt-title p, .daily-report .daily-report-title p, .project .daily-report-title p, .members .members-title p, .customers .customers-title p {
+  padding-left: 19px;
+  color: #444444;
+  font-size: 48px;
+  float: left;
+  font-weight: 300;
+  line-height: 63px;
+  font-family: Roboto-Light; }
+
+.btn-sign-in:hover, .start-now:hover, .our-customers .our-customers-employees .our-customers-avatar:hover {
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out; }
+
+.i-learnt .i-learnt-description p, .daily-report .daily-report-description p, .project .daily-report-description p, .members .members-description p, .customers .customers-description p {
+  color: #283238;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 19px; }
+
+.i-learnt .content-today-i-learnt .i-learnt-detail p, .daily-report .content-daily-report .daily-report-detail p, .project .content-daily-report .daily-report-detail p, .members .members-content .members-detail p, .customers .customers-content .customers-detail p {
+  color: #283238;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: justify; }
+
+.i-learnt .i-learnt-start, .daily-report .daily-report-start, .project .daily-report-start, .members .members-start, .customers .customers-start {
+  padding-top: 30px;
+  padding-bottom: 100px; }
+
+.btn-sign-in:hover {
+  color: #FFFFFF;
+  background: -webkit-linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+  background: -o-linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+  background: linear-gradient(135deg, #B4EC51 0%, #429321 100%); }
+
+.start-now {
+  padding: 13px 40px;
+  border-radius: 100px;
+  background: -webkit-linear-gradient(138.88deg, #B4EC51 0%, #429321 100%);
+  background: -o-linear-gradient(138.88deg, #B4EC51 0%, #429321 100%);
+  background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  line-height: 21px; }
+  .start-now:hover {
+    background: -webkit-linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+    background: -o-linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+    background: linear-gradient(135deg, #B4EC51 0%, #429321 100%); }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px;
+  font-family: Roboto-Regular; }
+
+header {
+  width: 100%;
+  background-image: url("../images/banner.jpg"); }
+  header .sign-in {
+    padding-top: 43px; }
+    header .sign-in input {
+      padding: 10px 16px;
+      border: 2px solid #8BC34A;
+      border-radius: 100px;
+      color: #8BC34A;
+      cursor: pointer;
+      font-size: 12px;
+      letter-spacing: 1px;
+      background-color: unset;
+      float: right; }
+    header .sign-in .about-us {
+      line-height: 41px; }
+  header .logo {
+    text-align: center;
+    padding-top: 165px; }
+  header .theme-icons {
+    padding-left: 3.34%;
+    padding-top: 53px; }
+    header .theme-icons .ti-alarm-clock {
+      padding-left: 37%; }
+    header .theme-icons .ti-thumb-up {
+      padding-left: 30.9%; }
+  header .text-icons {
+    padding-top: 14px; }
+    header .text-icons .faster {
+      padding-left: 29.74%; }
+    header .text-icons .together {
+      padding-left: 20.66%; }
+  header .text-title {
+    padding-top: 53px; }
+    header .text-title p {
+      text-align: center;
+      color: #283238;
+      font-size: 18px;
+      line-height: 24px;
+      font-family: Roboto-Italic; }
+  header .header-start {
+    text-align: center;
+    padding-top: 31px;
+    padding-bottom: 233px; }
+
+.i-learnt {
+  width: 100%;
+  -webkit-box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); }
+  .i-learnt .i-learnt-img {
+    margin-top: -121px; }
+    .i-learnt .i-learnt-img img {
+      max-width: 100%; }
+  .i-learnt .today-i-learnt-title {
+    padding-top: 100px; }
+  .i-learnt .i-learnt-description {
+    padding-top: 16px;
+    padding-bottom: 25px; }
+  .i-learnt .i-learnt-start {
+    margin-top: -83px; }
+
+.daily-report, .project {
+  width: 100%; }
+  .daily-report .daily-report-title, .project .daily-report-title {
+    padding-top: 100px; }
+  .daily-report .daily-report-description, .project .daily-report-description {
+    padding-top: 16px;
+    padding-bottom: 25px; }
+  .daily-report .daily-report-img, .project .daily-report-img {
+    margin-top: -108px; }
+    .daily-report .daily-report-img img, .project .daily-report-img img {
+      max-width: 100%; }
+  .daily-report .daily-report-start, .project .daily-report-start {
+    margin-top: -80px; }
+
+.select-number {
+  width: 100%;
+  background: -webkit-linear-gradient(135deg, #B4EC51 0%, #429321 100%);
+  background: -o-linear-gradient(135deg, #B4EC51 0%, #429321 100%);
+  background: linear-gradient(315deg, #B4EC51 0%, #429321 100%); }
+  .select-number .select-carousel {
+    padding-top: 68.75px;
+    padding-bottom: 70px; }
+    .select-number .select-carousel .carousel {
+      float: left;
+      width: 228px; }
+      .select-number .select-carousel .carousel .number {
+        margin: auto;
+        width: 109.5px; }
+        .select-number .select-carousel .carousel .number img {
+          max-width: 100%;
+          padding-bottom: 10.75px; }
+        .select-number .select-carousel .carousel .number p {
+          color: #FFFFFF;
+          text-align: center;
+          font-size: 16px;
+          line-height: 21px;
+          letter-spacing: 1px; }
+
+.members {
+  width: 100%;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1); }
+  .members .members-title {
+    padding-top: 100px; }
+  .members .members-description {
+    padding-top: 16px;
+    padding-bottom: 25px; }
+  .members .members-content .members-detail .ti-check-box {
+    font-size: 18px;
+    color: #8BC34A; }
+  .members .members-img {
+    text-align: center;
+    margin-top: -108px; }
+    .members .members-img img {
+      max-width: 100%; }
+  .members .members-start {
+    margin-top: -148px; }
+
+.customers {
+  width: 100%; }
+  .customers .customers-title {
+    padding-top: 100px; }
+  .customers .customers-description {
+    padding-top: 16px;
+    padding-bottom: 25px; }
+  .customers .customers-img {
+    margin-top: -105px; }
+    .customers .customers-img img {
+      max-width: 100%; }
+  .customers .customers-content .customers-detail .ti-unlock, .customers .customers-content .customers-detail .ti-cup, .customers .customers-content .customers-detail .ti-stats-up {
+    font-size: 18px;
+    color: #8BC34A; }
+  .customers .customers-start {
+    margin-top: -105px; }
+
+.our-customers {
+  width: 100%;
+  background-image: url("../images/our_customers.jpg"); }
+  .our-customers .our-customers-carousel {
+    padding-top: 50px; }
+    .our-customers .our-customers-carousel .our-customers-title {
+      text-align: center; }
+      .our-customers .our-customers-carousel .our-customers-title p {
+        color: #FFFFFF;
+        line-height: 63px;
+        font-family: Roboto-Light;
+        font-size: 48px;
+        font-weight: 300; }
+  .our-customers .our-customers-employees {
+    padding-top: 34px; }
+    .our-customers .our-customers-employees .our-customers-avatar {
+      text-align: center; }
+      .our-customers .our-customers-employees .our-customers-avatar .img-hover {
+        padding-top: 14px; }
+      .our-customers .our-customers-employees .our-customers-avatar .customers-job {
+        padding-bottom: 12px; }
+      .our-customers .our-customers-employees .our-customers-avatar:hover {
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2); }
+      .our-customers .our-customers-employees .our-customers-avatar .customers-name {
+        color: #FFFFFF;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 14px;
+        text-align: center;
+        padding-top: 16px; }
+      .our-customers .our-customers-employees .our-customers-avatar .customers-job {
+        color: #FFFFFF;
+        font-weight: 300;
+        line-height: 14px;
+        font-size: 10px;
+        text-align: center; }
+  .our-customers .our-customers-content {
+    margin-top: -10px; }
+    .our-customers .our-customers-content .ti-quote-left, .our-customers .our-customers-content .ti-quote-right {
+      font-size: 72px;
+      opacity: 0.4;
+      color: #FFFFFF; }
+    .our-customers .our-customers-content .ti-quote-right {
+      margin-top: -36px;
+      padding-bottom: 29px; }
+    .our-customers .our-customers-content .our-customers-detail {
+      margin-top: -24px;
+      font-size: 18px;
+      color: #FFFFFF;
+      line-height: 30px;
+      text-align: justify; }
+
+footer {
+  width: 100%;
+  border: 1px solid #ECEFF1;
+  background-color: #39474E;
+  -webkit-box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); }
+  footer .footer-logo {
+    padding-top: 45px; }
+    footer .footer-logo label {
+      width: 126px; }
+      footer .footer-logo label img {
+        max-width: 100%; }
+  footer .footer-column {
+    padding-top: 54px; }
+    footer .footer-column span {
+      color: #8BC34A;
+      font-weight: 500;
+      line-height: 18px; }
+    footer .footer-column .footer-link-top, footer .footer-column .footer-link-bottom {
+      padding-top: 14px;
+      list-style: none;
+      line-height: 20px; }
+      footer .footer-column .footer-link-top a, footer .footer-column .footer-link-bottom a {
+        color: #D0D8DC;
+        font-size: 10px;
+        font-weight: 500;
+        text-decoration: none; }
+    footer .footer-column .footer-link-bottom {
+      padding-top: 0px; }
+  footer .footer-link-network {
+    padding-top: 108px; }
+    footer .footer-link-network .ti-facebook, footer .footer-link-network .ti-twitter-alt, footer .footer-link-network .ti-youtube, footer .footer-link-network .ti-linkedin {
+      color: #8BC34A; }
+  footer .copyright-2017 {
+    padding-bottom: 57px;
+    margin-top: -17px; }
+    footer .copyright-2017 p {
+      color: #D0D8DC;
+      font-size: 10px;
+      font-weight: 500; }
+
+@media screen and (max-width: 480px) {
+  header {
+    background-image: url("../images/Landing page/Landing-page-MB/banner1.jpg"); } }
+
+@media screen and (width: 768px) {
+  header {
+    background-image: url("../images/Landing page/Landing-page-TB/banner1.jpg"); }
+  .our-customer {
+    background-image: url("../images/Landing page/Landing-page-TB/our_customers.jpg"); } }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    width: 100%; }
+  .start-now {
+    padding: 13px 30px;
+    font-size: 14px;
+    line-height: 19px; }
+  .i-learnt .i-learnt-start, .daily-report .daily-report-start, .project .daily-report-start, .members .members-start, .customers .customers-start {
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 50px; }
+  header .theme-icons .ti-gift, header .theme-icons .ti-alarm-clock, header .theme-icons .ti-thumb-up {
+    font-size: 24px;
+    letter-spacing: 2px; }
+  header .text-icons .better, header .text-icons .faster, header .text-icons .together {
+    font-size: 24px;
+    line-height: 32px; }
+  header .about-us {
+    padding-left: 15%; }
+  header .sign-in {
+    padding-top: 20px; }
+  header .logo {
+    text-align: center;
+    padding-top: 30px; }
+    header .logo label {
+      width: 144px; }
+      header .logo label img {
+        max-width: 100%; }
+  header .theme-icons {
+    padding-left: 8%;
+    padding-top: 40px; }
+    header .theme-icons .ti-alarm-clock {
+      padding-left: 34.61%; }
+    header .theme-icons .ti-thumb-up {
+      padding-left: 32.5%; }
+  header .text-icons {
+    padding-left: 5.6%;
+    padding-top: 7px; }
+    header .text-icons .faster {
+      padding-left: 23.8%; }
+    header .text-icons .together {
+      padding-left: 18.06%; }
+  header .text-title {
+    padding-top: 15px; }
+    header .text-title p {
+      font-size: 14px;
+      line-height: 19px; }
+  header .header-start {
+    padding-top: 30px;
+    padding-bottom: 84.2px; }
+  .i-learnt .i-learnt-img {
+    margin-top: 0px; }
+  .i-learnt .today-i-learnt-title {
+    padding-top: 50px; }
+    .i-learnt .today-i-learnt-title p {
+      font-size: 36px; }
+    .i-learnt .today-i-learnt-title .ti-bookmark-alt {
+      font-size: 30px; }
+  .i-learnt .i-learnt-description p {
+    text-align: center; }
+  .daily-report .daily-report-title, .project .daily-report-title {
+    padding-top: 50px; }
+    .daily-report .daily-report-title p, .project .daily-report-title p {
+      font-size: 36px; }
+    .daily-report .daily-report-title .ti-write, .project .daily-report-title .ti-write {
+      font-size: 30px; }
+  .daily-report .daily-report-description p, .project .daily-report-description p {
+    text-align: center; }
+  .daily-report .daily-report-img, .project .daily-report-img {
+    margin-top: 0px; }
+  .select-number .select-carousel {
+    padding-top: 48.75px;
+    padding-bottom: 50px; }
+    .select-number .select-carousel .carousel {
+      float: none;
+      width: 0px;
+      padding-left: 15px; }
+  .members .members-title {
+    padding-top: 50px; }
+    .members .members-title p {
+      font-size: 36px; }
+    .members .members-title .ti-user {
+      font-size: 30px; }
+  .members .members-description p {
+    text-align: center; }
+  .members .members-img {
+    margin-top: 0px; }
+  .customers .customers-title {
+    padding-top: 50px; }
+    .customers .customers-title p {
+      font-size: 36px; }
+    .customers .customers-title .ti-face-smile {
+      font-size: 30px; }
+  .customers .customers-description p {
+    text-align: center; }
+  .customers .customers-img {
+    margin-top: 0px; }
+  .our-customers .our-customers-carousel .our-customers-title p {
+    line-height: 48px;
+    font-size: 36px; }
+  .our-customers .our-customers-employees {
+    padding-top: 20px; }
+  .our-customers .our-customers-content .ti-quote-right {
+    float: right; } }
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 100%; }
+  .start-now {
+    padding: 11px 29px;
+    font-size: 14px;
+    line-height: 19px; }
+  .i-learnt .i-learnt-start, .daily-report .daily-report-start, .project .daily-report-start, .members .members-start, .customers .customers-start {
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    padding-top: 20px; }
+  header .theme-icons .ti-gift, header .theme-icons .ti-alarm-clock, header .theme-icons .ti-thumb-up {
+    font-size: 18px;
+    letter-spacing: 1px; }
+  .i-learnt .today-i-learnt-title p, .daily-report .daily-report-title p, .project .daily-report-title p, .members .members-title p, .customers .customers-title p {
+    font-size: 24px;
+    line-height: 32px; }
+  header .text-icons .better, header .text-icons .faster, header .text-icons .together {
+    font-size: 18px;
+    line-height: 24px; }
+  .i-learnt .today-i-learnt-title .ti-bookmark-alt, .daily-report .daily-report-title .ti-write, .project .daily-report-title .ti-write, .members .members-title .ti-user, .customers .customers-title .ti-face-smile, .project .daily-report-title .ti-calendar {
+    padding-top: 5px;
+    font-size: 20px; }
+  header .about-us {
+    padding-left: 30%; }
+  header .sign-in {
+    padding-top: 13px; }
+  header .logo {
+    text-align: center;
+    padding-top: 8px; }
+    header .logo label {
+      width: 96px; }
+      header .logo label img {
+        max-width: 100%; }
+  header .theme-icons {
+    padding-left: 6.5%;
+    padding-top: 20px; }
+    header .theme-icons .ti-alarm-clock {
+      padding-left: 35.21%; }
+    header .theme-icons .ti-thumb-up {
+      padding-left: 33%; }
+  header .text-icons {
+    padding-top: 8px; }
+    header .text-icons .faster {
+      padding-left: 22.04%; }
+    header .text-icons .together {
+      padding-left: 14.26%; }
+  header .text-title {
+    padding-top: 15px; }
+    header .text-title p {
+      font-size: 9px;
+      line-height: 11px; }
+  header .header-start {
+    padding-top: 15px;
+    padding-bottom: 26.75px; }
+  .i-learnt .i-learnt-img {
+    margin-top: 0px; }
+  .i-learnt .today-i-learnt-title {
+    padding-top: 30px; }
+  .i-learnt .content-today-i-learnt {
+    padding-top: 21px; }
+  .i-learnt .i-learnt-description p {
+    font-size: 13px;
+    text-align: center; }
+  .daily-report .daily-report-title, .project .daily-report-title {
+    padding-top: 30px; }
+  .daily-report .daily-report-description p, .project .daily-report-description p {
+    font-size: 13px;
+    text-align: center; }
+  .daily-report .daily-report-img, .project .daily-report-img {
+    margin-top: 0px;
+    padding-top: 21px; }
+  .select-number .select-carousel {
+    padding-top: 48.75px;
+    padding-bottom: 50px; }
+    .select-number .select-carousel .carousel {
+      float: none;
+      width: 0px;
+      margin-left: 5px; }
+  .members .members-title {
+    padding-top: 30px; }
+  .members .members-description p {
+    text-align: center;
+    font-size: 13px; }
+  .members .members-img {
+    margin-top: 0px;
+    padding-top: 21px; }
+  .customers .customers-content {
+    padding-top: 21px; }
+  .customers .customers-title {
+    padding-top: 30px; }
+  .customers .customers-description p {
+    font-size: 13px;
+    text-align: center; }
+  .customers .customers-img {
+    margin-top: 0px; }
+  .our-customers .our-customers-carousel .our-customers-title p {
+    line-height: 32px;
+    font-size: 24px; }
+  .our-customers .our-customers-employees {
+    padding-top: 20px; }
+  .our-customers .our-customers-content .ti-quote-right {
+    float: right;
+    margin-top: 0px;
+    font-size: 48px; }
+  .our-customers .our-customers-content .our-customers-detail {
+    margin-top: 0px; }
+    .our-customers .our-customers-content .our-customers-detail p {
+      font-size: 14px;
+      line-height: 25px; }
+  .our-customers .our-customers-content .ti-quote-left, .our-customers .our-customers-content .ti-quote-right {
+    font-size: 48px; }
+  footer .footer-logo label {
+    width: 96px; }
+  footer .footer-column {
+    padding-top: 25px; }
+    footer .footer-column span {
+      font-size: 12px; }
+  footer .footer-link-network {
+    padding-top: 25px; }
+  footer .copyright-2017 {
+    float: right;
+    padding-bottom: 26.31px; } }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    width: 100%; }
+  .i-learnt .i-learnt-start, .daily-report .daily-report-start, .project .daily-report-start, .members .members-start, .customers .customers-start {
+    margin-top: 30px;
+    padding-top: 0px;
+    padding-bottom: 100px; }
+  header .theme-icons {
+    padding-left: 7%; }
+    header .theme-icons .ti-alarm-clock {
+      padding-left: 30.71%; }
+    header .theme-icons .ti-thumb-up {
+      padding-left: 32.1%; }
+  header .text-icons {
+    padding-left: 4.6%; }
+    header .text-icons .faster {
+      padding-left: 22%; }
+    header .text-icons .together {
+      padding-left: 18.46%; } }
+
+@media screen and (width: 320px) {
+  header .about-us {
+    padding-left: 15%; }
+  header .theme-icons {
+    padding-left: 8.5%; }
+    header .theme-icons .ti-alarm-clock {
+      padding-left: 24.21%; }
+    header .theme-icons .ti-thumb-up {
+      padding-left: 23%; }
+  header .text-icons .better {
+    font-size: 17px; }
+  header .text-icons .faster {
+    font-size: 17px;
+    padding-left: 2%; }
+  header .text-icons .together {
+    font-size: 17px;
+    padding-left: 1%; }
+  .i-learnt .today-i-learnt-title {
+    margin-left: 12%; }
+  .daily-report .daily-report-title, .project .daily-report-title {
+    margin-left: 12%; } }
+
+@media screen and (min-width: 360px) and (max-width: 400px) {
+  header .about-us {
+    padding-left: 15%; }
+  header .theme-icons {
+    padding-left: 7.5%; }
+    header .theme-icons .ti-alarm-clock {
+      padding-left: 28.21%; }
+    header .theme-icons .ti-thumb-up {
+      padding-left: 28%; }
+  header .text-icons .faster {
+    padding-left: 10%; }
+  header .text-icons .together {
+    padding-left: 2%; } }
+
+@media screen and (min-width: 401px) and (max-width: 471px) {
+  header .about-us {
+    padding-left: 25%; }
+  header .theme-icons {
+    padding-left: 7.5%; }
+    header .theme-icons .ti-alarm-clock {
+      padding-left: 30.21%; }
+    header .theme-icons .ti-thumb-up {
+      padding-left: 28%; }
+  header .text-icons .faster {
+    padding-left: 14%; }
+  header .text-icons .together {
+    padding-left: 10%; } }
+
+@media screen and (width: 360px) {
+  .select-number .select-carousel .carousel {
+    margin-left: 0px; } }
+
+@media screen and (width: 320px) {
+  .select-number .select-carousel .carousel {
+    margin-left: 0px; }
+    .select-number .select-carousel .carousel .number img {
+      max-width: 88%; }
+  .members .members-detail p {
+    width: 85.666667%; }
+  .customers .customers-detail p {
+    width: 85.666667%; } }
+
+@media screen and (width: 375px) {
+  header .text-icons .together {
+    padding-left: 8%; } }
+
+@media screen and (width: 480px) {
+  .select-number .select-carousel .carousel {
+    margin-left: 20px; } }
