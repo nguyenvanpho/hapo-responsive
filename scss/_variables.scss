@@ -14,14 +14,16 @@
 	font-family: 'Roboto-Medium';
 	src: url('../fonts/Roboto-Medium.ttf');  
 }
-p,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin: 0 !important;
+  margin: 0px;
+}
+p {
+	margin: 0px !important;
 }
 $color_01: #8BC34A;
 $color_02: #283238;

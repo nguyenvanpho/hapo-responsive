@@ -19,7 +19,7 @@ body {
 	cursor: pointer;
 	line-height: 21px;
 
-	&:hover{
+	&:hover {
 		@include backgr(135deg);
 		@extend %transition;
 	}
@@ -162,7 +162,7 @@ header{
 	}
 	.daily-report-img{
 		margin-top: -108px;
-		img{
+		img {
 			max-width: 100%;
 		}
 	}
@@ -322,7 +322,7 @@ header{
 			.customers-job{
 				padding-bottom: 12px;
 			}
-			&:hover{
+			&:hover {
 				-moz-transform: scale(1.2);
 			 	-webkit-transform: scale(1.2);
 			 	transform: scale(1.2);
