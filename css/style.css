@@ -250,6 +250,7 @@ header {
     .our-customers .our-customers-employees .our-customers-avatar {
       text-align: center; }
       .our-customers .our-customers-employees .our-customers-avatar .img-hover {
+        cursor: pointer;
         padding-top: 14px; }
       .our-customers .our-customers-employees .our-customers-avatar .customers-job {
         padding-bottom: 12px; }
@@ -257,7 +258,8 @@ header {
         -moz-transform: scale(1.2);
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
-        transform: scale(1.2); }
+        transform: scale(1.2);
+        cursor: pointer; }
       .our-customers .our-customers-employees .our-customers-avatar .customers-name {
         color: #FFFFFF;
         font-size: 13px;
@@ -327,6 +329,13 @@ footer {
       color: #D0D8DC;
       font-size: 10px;
       font-weight: 500; }
+
+.slick-slide:focus {
+  outline: none; }
+
+.slick-dots li button:before {
+  color: white;
+  font-size: 10px; }
 
 @font-face {
   font-family: 'Roboto-Light';
@@ -490,9 +499,8 @@ header .text-icons .better, header .text-icons .faster, header .text-icons .toge
   .select-number .select-carousel {
     padding: 48.75px 0px 50px 0px; }
     .select-number .select-carousel .carousel {
-      float: none;
-      width: 0px;
-      padding-left: 15px; }
+      float: left;
+      width: 0px; }
   .members .members-title {
     padding-top: 50px; }
     .members .members-title p {
@@ -595,11 +603,10 @@ header .text-icons .better, header .text-icons .faster, header .text-icons .toge
     margin-top: 0px;
     padding-top: 21px; }
   .select-number .select-carousel {
-    padding: 48.75px 0px 50px 0px; }
+    padding: 48.75px 0px 20px 0px; }
     .select-number .select-carousel .carousel {
-      float: none;
-      width: 0px;
-      margin-left: 5px; }
+      float: left;
+      width: 0px; }
   .members .members-title {
     padding-top: 30px; }
   .members .members-description p {

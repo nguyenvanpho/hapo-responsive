@@ -1,46 +1,70 @@
  $(document).ready(function() {
-  let owl_select = $('.select-carousel');
-    owl_select.owlCarousel({
-        padding: 10,
-        // nav: true,
-        loop: true,
-        responsive: {
-          0: {
-            items: 3,
-            autoplay:true,
-            autoplayTimeout:2000,
-          },
-          768: {
-            items: 5,
-            loop:false,
-          },
-          1000: {
-            items: 5,
-            loop:false,
-          }
-        }
-    })
+   $('.select-carousel').slick({
+     dots: false,
+     infinite: true,
+     speed: 300,
+     slidesToShow: 5,
+     slidesToScroll: 1,
+     focusOnSelect: true,
+     cssEase: 'linear',
+     responsive: [
+       {
+         breakpoint: 767,
+         settings: {
+            dots: true,
+            slidesToShow: 3,
+            slidesToScroll: 2,
+         }
+       }
+     ]
+   });
 
-   let owl_customers = $('.our-customers-employees');
-    owl_customers.owlCarousel({
-      autoplay:true,
-      autoplayTimeout:2000,
-      padding: 10,
-      // nav: true,
-      loop: true,
-      autoplayHoverPause: true,
-      responsive: {
-        0: {
-          items: 4
-        },
-        768: {
-          items: 6
-        },
-        992: {
-          items: 8
-        }
-      }
-    })
-})
-
+   $('.our-customers-employees').slick({
+     dots: true,
+     infinite: true,
+     speed: 300,
+     slidesToShow: 8,
+     // slidesToScroll: 5,
+     autoplay: true,
+     autoplaySpeed: 2000,
+     loop:true,
+     asNavFor: '.our-customers-detail',
+     focusOnSelect: true,
+     cssEase: 'linear',
+     centerMode: true,
+     centerPadding: '20px',
+     responsive: [
+       {   
+         breakpoint: 767,
+         settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            centerPadding: '0px',
+         }
+       },
+       {   
+         breakpoint: 991,
+         settings: {
+            slidesToShow: 8,
+            centerPadding: '0px',
+         }
+       },
+        {   
+         breakpoint: 1199,
+         settings: {
+            slidesToShow: 8,
+            centerPadding: '0px',
+         }
+       }
+     ]
+   });
  
+  $('.our-customers-detail').slick({
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     arrows: false,
+     infinite: true,
+     asNavFor: '.our-customers-employees'
+  });
+
+});

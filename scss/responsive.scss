@@ -147,9 +147,8 @@
 		.select-carousel{
 			padding: 48.75px 0px 50px 0px;
 			.carousel{
-				float: none;
+				float: left;
 				width: 0px;
-				padding-left: 15px;
 			}
 		}
 	}
@@ -376,11 +375,10 @@
 
 	.select-number{
 		.select-carousel{
-			padding: 48.75px 0px 50px 0px;
+			padding: 48.75px 0px 20px 0px;
 			.carousel{
-				float: none;
+				float: left;
 				width: 0px;
-				margin-left: 5px;
 			}
 		}
 	}
@@ -555,7 +553,6 @@
 			@extend %start-ipad-pro;
 		}
 	}
-
 }
 @media screen and (width: 320px){
 	header{

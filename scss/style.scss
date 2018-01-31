@@ -316,6 +316,7 @@ header{
 		.our-customers-avatar{
 			text-align: center;
 			.img-hover{
+				cursor: pointer;
 				padding-top: 14px;
 			}
 			.customers-job{
@@ -325,6 +326,7 @@ header{
 				-moz-transform: scale(1.2);
 			 	-webkit-transform: scale(1.2);
 			 	transform: scale(1.2);
+			 	cursor: pointer;
 			 	@extend %transition;
 			}
 			.customers-name{
@@ -432,4 +434,22 @@ footer{
 		}
 	}
 }
+
+.slick-slide {
+	&:focus {
+		outline: none;
+	}
+}
+
+.slick-dots {
+	li {
+		button {
+			&:before {
+				color: white;
+		    font-size: 10px;
+			}
+		}
+	}
+}
+
 @import 'responsive';
