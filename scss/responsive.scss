@@ -9,15 +9,8 @@
 			}
 		}
 	}
-	.members{
-		.members-detail{
-			p{
-				width: 85.666667%;
-			}
-		}
-	}
-	.customers{
-		.customers-detail{
+	.members,.customers{
+		.detail{
 			p{
 				width: 85.666667%;
 			}
@@ -27,38 +20,19 @@
 		.about-us{
 			padding-left: 15%;
 		}
-		.theme-icons{
-			padding-left: 8.5%;
-			.ti-gift{
-			}
-			.ti-alarm-clock {
-				padding-left: 24.21%;
-			}
-			.ti-thumb-up {
-				padding-left: 23%;
-			}
-		}
 		.text-icons{
-			.better{
-				font-size: 17px;
-			}
-			.faster {
-				font-size: 17px;
-				padding-left: 2%;
-			}
-			.together {
-				font-size: 17px;
-				padding-left: 1%;
+			.better,.faster,.together{
+				font-size: 15px;
 			}
 		}
 	}
 	.i-learnt{
-		.today-i-learnt-title{
+		.title{
 			margin-left: 12%;
 		}
 	}
 	.daily-report{
-		.daily-report-title{
+		.title{
 			margin-left: 12%;
 		}
 	}
@@ -84,88 +58,32 @@
 	}
 }
 
-@media screen and (min-width: 360px) and (max-width: 400px){
-	header{
-		.about-us{
-			padding-left: 15%;
-		}
-		.theme-icons{
-			padding-left: 7.5%;
-			.ti-gift{
-			}
-			.ti-alarm-clock {
-				padding-left: 28.21%;
-			}
-			.ti-thumb-up {
-				padding-left: 28%;
-			}
-		}
-		.text-icons{
-			.faster {
-				padding-left: 10%;
-			}
-			.together {
-				padding-left: 2%;
-			}
-		}
-	}
-}
-
 @media screen and (min-width: 401px) and (max-width: 471px){
-	header{
+	header {
 		.about-us{
 			padding-left: 25%;
-		}
-		.theme-icons{
-			padding-left: 7.5%;
-			.ti-gift{
-			}
-			.ti-alarm-clock {
-				padding-left: 30.21%;
-			}
-			.ti-thumb-up {
-				padding-left: 28%;
-			}
-		}
-		.text-icons{
-			.faster {
-				padding-left: 14%;
-			}
-			.together {
-				padding-left: 10%;
-			}
-		}
+		}		
 	}
 }
 
 @media screen and (max-width:480px){
-	header{
+	header {
 		background-image: url("../images/Landing page/Landing-page-MB/banner1.jpg");
-	}
-	.select-number {
-		.select-carousel {
-			.carousel{
-				margin-left: 20px;
-			}
-		}
 	}
 }
 
 @media screen and (max-width:767px){
- 	body {
-	width: 100%;
-	}
-	.start-now{
+	.start-now {
 		padding: 11px 29px;
 		font-size: 14px;
 		line-height: 19px;
 	}
-	%start-center-mobile{
+	%start-center-mobile {
 		text-align: center;
 		margin-top: 0px;
 		padding: 20px 0px 30px 0px;
 	}
-	%icon-general-mobile{
+	%icon-general-mobile {
 		font-size: 18px;
 		letter-spacing: 1px;
 	}
@@ -192,7 +110,6 @@
 		padding-top: 13px;
 	}
 	.logo {
-		text-align: center;
 		padding-top: 8px;
 		label{
 			width: 96px;
@@ -202,31 +119,20 @@
 		}
 	}
 	.theme-icons{
-		padding-left: 6.5%;
 		padding-top: 20px;
 		.ti-gift{
 			@extend %icon-general-mobile;
 		}
 		.ti-alarm-clock {
-			padding-left: 35.21%;
 			@extend %icon-general-mobile;
 		}
 		.ti-thumb-up {
-			padding-left: 33%;
 			@extend %icon-general-mobile;
 		}
 	}
 	.text-icons{
 		padding-top: 8px;
-		.better{
-			@extend %text-general-mobile;
-		}
-		.faster {
-			padding-left: 22.04%;
-			@extend %text-general-mobile;
-		}
-		.together {
-			padding-left: 14.26%;
+		.better,.faster,.together {
 			@extend %text-general-mobile;
 		}
 	}
@@ -242,11 +148,8 @@
 	}
 }
 	.i-learnt {
-		.i-learnt-img{
-		margin-top: 0px;
-		}
-		.today-i-learnt-title{
-			padding-top: 30px;
+		padding-top: 30px;
+		.title{			
 				p {
 					@extend %text-title-mobile;
 				}
@@ -254,23 +157,22 @@
 					@extend %icon-content-mobile;
 				}
 			}
-		.content-today-i-learnt{
+		.content{
 			padding-top: 21px;
 		}
-		.i-learnt-description{
+		.description{
 				p{
 					font-size: 13px;
-					text-align: center;
 				}
 			}
-		.i-learnt-start{
+		.start{
 			@extend %start-center-mobile;
 		}
 	}
 
 	.daily-report{
-		.daily-report-title{
-			padding-top: 30px;
+		padding-top: 30px;
+		.title{		
 				p {
 					@extend %text-title-mobile;
 				}
@@ -278,19 +180,15 @@
 				@extend %icon-content-mobile;
 				}
 			}
-
-		.daily-report-description{
-				p{
-					font-size: 13px;
-					text-align: center;
-				}
+		.description{
+			p{
+				font-size: 13px;
 			}
-
-		.daily-report-img{
-			margin-top: 0px;
+		}
+		.images{
 			padding-top: 21px;
 		}
-		.daily-report-start{
+		.start{
 			@extend %start-center-mobile;
 		}
 	}
@@ -306,8 +204,8 @@
 	}
 
 	.members{
-		.members-title{
-			padding-top: 30px;
+		padding-top: 30px;
+		.title{
 			p {
 				@extend %text-title-mobile;
 			}
@@ -315,26 +213,23 @@
 			@extend %icon-content-mobile;
 			}
 		}
-		.members-description{
+		.description{
 			p{
 				text-align: center;
 				font-size: 13px;
 			}
 		}
-		.members-img{
-			margin-top: 0px;
+		.images{
 			padding-top: 21px;
 		}
-		.members-start{
+		.start{
 			@extend %start-center-mobile;
 		}
 	}
 
 	.customers {
-		.customers-content{
-			padding-top: 21px;
-		}
-		.customers-title{
+		padding-top: 21px;
+		.title{
 			padding-top: 30px;
 			p {
 				@extend %text-title-mobile;
@@ -344,40 +239,35 @@
 			}
 		}
 
-		.customers-description{
+		.description{
 			p{
 				font-size: 13px;
-				text-align: center;
 			}
 		}
-
-		.customers-img{
-			margin-top: 0px;
-		}
-		.customers-start{
+		.start{
 			@extend %start-center-mobile;
 		}
 	}
 	.project{
-		.daily-report-title{
+		.title{
 			.ti-calendar{
 				@extend %icon-content-mobile;
 			}
 		}
 	}
 	.our-customers{
-		.our-customers-carousel{
-			.our-customers-title{
+		.customers-carousel{
+			.title{
 				p{
 					line-height: 32px;
 					font-size: 24px;
 				}
 			}
 		}
-		.our-customers-employees{
+		.employees{
 			padding-top: 20px;
 		}
-		.our-customers-content{
+		.content{
 			.ti-quote-right{
 				float: right;
 				margin-top: 0px;
@@ -397,18 +287,18 @@
 	}
 
 	footer{
-		.footer-logo{
+		.logo{
 			label{
 				width: 96px;
 			}
 		}
-		.footer-column{
+		.column{
 			padding-top: 25px;
 			span{
 				font-size: 12px;
 			}
 		}
-		.footer-link-network{
+		.link-network{
 			padding-top: 25px;
 		}
 		.copyright-2017{
@@ -416,9 +306,7 @@
 			padding-bottom: 26.31px;
 		}
 	}
-
 }
-
 
 @media screen and (width:768px){
 	header{
@@ -430,21 +318,14 @@
 }
 
  @media screen and (min-width:768px) and (max-width:991px){
- 	body {
-	width: 100%;
-	}
 	.start-now{
 		padding: 13px 30px;
 		font-size: 14px;
 		line-height: 19px;
 	}
-
 	%start-center{
-		text-align: center;
-		margin-top: 0px;
 		padding-bottom: 50px;
 	}
-
 	%icon-general-ipad{
 		font-size: 24px;
 		letter-spacing: 2px;
@@ -470,30 +351,14 @@
 		}
 	}
 	.theme-icons{
-		padding:40px 0px 0px 8%;
-		.ti-gift{
-			@extend %icon-general-ipad;
-		}
-		.ti-alarm-clock {
-			padding-left: 34.61%;
-			@extend %icon-general-ipad;
-		}
-		.ti-thumb-up {
-			padding-left: 32.5%;
+		padding-top:40px;
+		.ti-gift,.ti-alarm-clock,.ti-thumb-up {
 			@extend %icon-general-ipad;
 		}
 	}
 	.text-icons{
-		padding:7px 0px 0px 5.6%;
-		.better{
-			@extend %text-general-ipad;
-		}
-		.faster {
-			padding-left: 23.8%;
-			@extend %text-general-ipad;
-		}
-		.together {
-			padding-left: 18.06%;
+		padding-top:7px;
+		.better,.faster, .together{
 			@extend %text-general-ipad;
 		}
 	}
@@ -510,11 +375,8 @@
 }
 
 	.i-learnt {
-		.i-learnt-img{
-		margin-top: 0px;
-		}
-		.today-i-learnt-title{
-			padding-top: 50px;
+		padding-top: 50px;
+		.title{
 				p {
 					font-size: 36px;
 				}
@@ -522,19 +384,14 @@
 					font-size: 30px;
 				}
 			}
-		.i-learnt-description{
-				p{
-					text-align: center;
-				}
-			}
-		.i-learnt-start{
+		.start{
 			@extend %start-center;
 		}
 	}
 
 	.daily-report{
-		.daily-report-title{
-			padding-top: 50px;
+		padding-top: 50px;
+		.title{	
 				p {
 					font-size: 36px;
 				}
@@ -542,17 +399,7 @@
 				font-size: 30px;
 				}
 			}
-
-		.daily-report-description{
-				p{
-					text-align: center;
-				}
-			}
-
-		.daily-report-img{
-			margin-top: 0px;
-		}
-		.daily-report-start{
+		.start{
 			@extend %start-center;
 		}
 	}
@@ -568,56 +415,38 @@
 	}
 
 	.members{
-		.members-title{
-			padding-top: 50px;
+		padding-top: 50px;
+		.title{			
 			p {
 				font-size: 36px;
 			}
-		.ti-user{
+			.ti-user{
 			font-size: 30px;
 			}
 		}
-		.members-description{
-			p{
-				text-align: center;
-			}
-		}
-		.members-img{
-			margin-top: 0px;
-		}
-		.members-start{
+		.start{
 			@extend %start-center;
 		}
 	}
 
 	.customers {
-		.customers-title{
-			padding-top: 50px;
+		padding-top: 50px;
+		.title{			
 			p {
 				font-size: 36px;
 			}
-			.ti-face-smile{
-				font-size: 30px;
+			.ti-user{
+			font-size: 30px;
 			}
 		}
-
-		.customers-description{
-			p{
-				text-align: center;
-			}
-		}
-
-		.customers-img{
-			margin-top: 0px;
-		}
-		.customers-start{
+		.start{
 			@extend %start-center;
 		}
 	}
 
 	.our-customers{
-		.our-customers-carousel{
-			.our-customers-title{
+		.customers-carousel{
+			.title{
 				p{
 					line-height: 48px;
 					font-size: 36px;
@@ -627,7 +456,7 @@
 		.our-customers-employees{
 			padding-top: 20px;
 		}
-		.our-customers-content{
+		.content{
 			.ti-quote-right{
 				float: right;
 			}
@@ -642,61 +471,23 @@
 	}
 
 }
-
- @media screen and (min-width:992px) and (max-width:1199px){
- 	body {
-	width: 100%;
+@media screen and(max-width: 991px) {
+	.pc-view{
+		display: none;
+	}
+	.tb-mb-view {
+		display: block;
+	}
 }
 
-%start-ipad-pro{
-	padding-top: 0px;
-	margin-top: 30px;
-	padding-bottom:100px;
-}
-
-	header{
-		.theme-icons{
-			padding-left: 7%;
-			.ti-gift{
-			}
-			.ti-alarm-clock {
-				padding-left: 30.71%;
-			}
-			.ti-thumb-up {
-				padding-left: 32.1%;
-			}
-		}
-		.text-icons{
-			padding-left: 4.6%;
-			.faster {
-				padding-left: 22%;
-			}
-			.together {
-				padding-left: 18.46%;
-			}
-		}
+ @media screen and (min-width:992px) and (max-width:1199px) {
+	%start-ipad-pro{
+		padding-top: 0px;
+		margin-top: 30px;
+		padding-bottom:100px;
 	}
-
-	.i-learnt {
-		.i-learnt-start{
-			@extend %start-ipad-pro;
-		}
-	}
-
-	.daily-report{
-		.daily-report-start{
-			@extend %start-ipad-pro;
-		}
-	}
-
-	.members{
-		.members-start{
-			@extend %start-ipad-pro;
-		}
-	}
-
-	.customers {
-		.customers-start{
+	.i-learnt,.daily-report,.members,.customers{
+		.start{
 			@extend %start-ipad-pro;
 		}
 	}
