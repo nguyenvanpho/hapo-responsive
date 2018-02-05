@@ -140,9 +140,6 @@ header {
   header .header-start {
     padding: 31px 0px 233px 0px; }
 
-.tb-mb-view {
-  display: none; }
-
 .i-learnt {
   padding-top: 100px;
   -webkit-box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
@@ -513,12 +510,6 @@ footer {
     float: right; }
   footer .footer-column span {
     font-size: 12px; } }
-
-@media screen and (max-width: 991px) {
-  .pc-view {
-    display: none; }
-  .tb-mb-view {
-    display: block; } }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .i-learnt .start, .daily-report .start, .project .start, .members .start, .customers .start {
